@@ -1,0 +1,31 @@
+#page-home .page-container header {
+  width: 100%;
+  margin: 0px auto;
+  padding: 64px 50px;
+}
+
+#page-home .page-container header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#page-home .page-container header ul li .active{
+  color: var(--color-title);
+  font-weight: 600;
+}
+
+#page-home .page-container header ul li a{
+  float: left;
+  margin-right: 40px;
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+}
+
+#page-home .page-container header ul li a:hover{
+  color: var(--color-title);
+  font-weight: 600;
+}

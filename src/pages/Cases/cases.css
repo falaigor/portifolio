@@ -17,20 +17,19 @@
 
 #page-home .page-container main .home-content {
   width: 100%;
-  padding: 64px 50px;
   display: flex;
   justify-content: space-between;
 }
 
 #page-home .page-container main .home-content  .description {
-  width: 50%;
+  width: 400px;
   display: flex;
   flex-wrap: wrap;
   align-content:space-between;
 }
 
 #page-home .page-container main .home-content  .img-home {
-  width: 50%
+  width: 450px
 }
 
 #page-home .page-container main .home-content  .description h1 {

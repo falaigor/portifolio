@@ -1,11 +1,11 @@
 import React from 'react';
-import './cases.css';
+import './case.css';
 
 import imgCase from '../../images/cases/img.png';
 
-const Cases = () => {
+const Case = () => {
   return (
-    <div className="case-content">
+    <div className="case-item">
       <img src={imgCase} alt="Delta Super" />
 
       <div className="description">
@@ -30,4 +30,4 @@ const Cases = () => {
   )
 }
 
-export default Cases
+export default Case

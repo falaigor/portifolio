@@ -1,22 +1,21 @@
 import React from 'react';
 import { FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
+
+import Case from '../../components/case/Case';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 
 import './index.css';
 import imgHome from '../../images/igor.png';
-import Cases from '../../components/cases/Cases';
 
 const index = () => {
 
   return (
     <div id="page-home">
       <div className="page-container">
-        <header>
-          <ul>
-            <li className="active"><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">Cases</a></li>
-          </ul>
-        </header>
+
+        <Header />
 
         <main>
 
@@ -43,14 +42,20 @@ const index = () => {
             </div>
           </div>
 
-          <Cases />
-          <Cases />
-          <Cases />
-          <Cases />
+          <div className="case-content">
+            <Case />
 
+            <Link to="/cases"
+              className="button">
+              Ver todos os cases
+            </Link>
+          </div>
 
         </main>
       </div>
+
+      <Footer />
+
     </div>
   )
 }

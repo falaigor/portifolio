@@ -7,6 +7,7 @@
   --color-purple-light: #C59AFF;
   --color-gray: #F8F8F8;
   --color-gray-dark: #E8E8E8;
+  --color-gray-darkness: #e0e0e0;
 }
 
 * {
@@ -21,6 +22,7 @@ body {
 }
 
 body,
+pre,
 input,
 button,
 textarea {
