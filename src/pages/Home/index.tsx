@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { FiInstagram, FiLinkedin, FiGithub } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import Case from '../../components/case/Case';
@@ -23,10 +23,17 @@ const index = () => {
             <div className="description">
               <h1>Hello, I'm Igor!'</h1>
               <p>
-                Data Warehouse is a data storage area that has been
-                tested for security, so you can store your data here
-                safely but not be afraid of being stolen by others.
-            </p>
+                A programação entrou por acaso em minha vida por volta de 2013.
+                Comecei de forma totalmente autodidata, para supri uma necessidade 
+                que havia na empresa que trabalhava. Fiquei encantado e apaixonado 
+                por FrontEnd, e desde então não sai mais da área.
+                <br /><br />
+                No meu tempo livre me dedico a dois hobbies, escultura 3D e RPG. 
+                Inclusive sou co-criador de um podcast de histórias e aventuras de RPG.
+                <br /><br />
+                Também divido parte do meu tempo com projetos pessoais.
+              </p>
+
               <a href="https://www.instagram.com/falaigors/"
                 className="btn-social">
                 <FiInstagram size={26} />
@@ -34,6 +41,10 @@ const index = () => {
               <a href="https://www.linkedin.com/in/falaigor/"
                 className="btn-social">
                 <FiLinkedin size={26} />
+              </a>
+              <a href="https://github.com/falaigor"
+                className="btn-social">
+                <FiGithub size={26} />
               </a>
             </div>
 

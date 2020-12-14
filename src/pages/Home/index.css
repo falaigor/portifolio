@@ -11,43 +11,47 @@
   margin: 0px auto;
 }
 
-#page-home .page-container main{
+#page-home .page-container main {
   width: 100%;
 }
 
 #page-home .page-container main .home-content {
   width: 100%;
-  padding: 64px 50px;
+  padding: 64px 50px 0;
   display: flex;
   justify-content: space-between;
 }
 
-#page-home .page-container main .home-content  .description {
+#page-home .page-container main .home-content .description {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
-  align-content:space-between;
+  align-content: space-between;
 }
 
-#page-home .page-container main .home-content  .img-home {
+#page-home .page-container main .home-content .img-home {
   width: 50%
 }
 
-#page-home .page-container main .home-content  .description h1 {
+#page-home .page-container main .home-content .img-home img {
+  width: 100%
+}
+
+#page-home .page-container main .home-content .description h1 {
   font-size: 80px;
   font-weight: 800;
   color: var(--color-title);
   margin-bottom: 40px;
 }
 
-#page-home .page-container main .home-content  .description p {
+#page-home .page-container main .home-content .description p {
   font-weight: 400;
   font-size: 18px;
   color: var(--color-text);
   margin-bottom: 40px;
 }
 
-#page-home .page-container main .home-content  .description .btn-social {
+#page-home .page-container main .home-content .description .btn-social {
   position: relative;
   width: 57px;
   height: 57px;
@@ -61,7 +65,7 @@
   transition: all 0.2s ease;
 }
 
-#page-home .page-container main .home-content  .description .btn-social:hover {
+#page-home .page-container main .home-content .description .btn-social:hover {
   background: var(--color-purple-dark);
 }
 
@@ -79,14 +83,36 @@
   transition: all 0.2s ease;
 }
 
-.button:hover{
+.button:hover {
   color: #fff;
   background: var(--color-purple-dark);
 }
 
 #page-home .page-container main .case-content {
-  margin: 64px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  #page-home .page-container main .home-content {
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  #page-home .page-container main .home-content .description {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  #page-home .page-container main .home-content .img-home {
+    width: 100%
+  }
+
 }

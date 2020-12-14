@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { FiInstagram, FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
 import './footer.css';
 
@@ -13,9 +13,9 @@ const Footer = () => {
           <div className="contact">
             <h3>Contato</h3>
             <pre>
-              Leme,SP<br />
-            falaigors@gmail.com<br />
-            19 97422 3710
+              Leme, SP<br />
+              falaigors@gmail.com<br />
+              <a href="/">19 97422 3710</a>
           </pre>
           </div>
           <div className="link">
@@ -34,6 +34,10 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/falaigor/"
                 className="btn-social">
                 <FiLinkedin size={26} />
+              </a>
+              <a href="https://github.com/falaigor"
+                className="btn-social">
+                <FiGithub size={26} />
               </a>
             </div>
           </div>

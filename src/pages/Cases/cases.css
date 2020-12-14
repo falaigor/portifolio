@@ -84,8 +84,28 @@
 }
 
 #page-home .page-container main .case-content {
-  margin: 64px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  #page-home .page-container main .home-content {
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #page-home .page-container main .home-content .description {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  #page-home .page-container main .home-content .img-home {
+    width: 100%
+  }
 }
