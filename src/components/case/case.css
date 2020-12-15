@@ -2,13 +2,17 @@
 #page-home .page-container main .case-item {
   width: 100%;
   height: 430px;
-  margin: 64px 50px;
+  margin: 64px 25px 0;
   padding: 0 70px;
   border-radius: 50px;
   background: var(--color-gray);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#page-home .page-container main .case-item+.case-item{
+  margin-bottom:64px;
 }
 
 #page-home .page-container main .case-item img{
@@ -76,17 +80,21 @@
   #page-home .page-container main .case-item {
     width: 100%;
     height: auto;
-    margin: 0px 50px 64px;
     padding: 40px 70px;
+    margin: 30px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+  }
+
+  #page-home .page-container main .case-item+ .case-item{
+    margin: 0 30px 30px 30px;
   }
   
   #page-home .page-container main .case-item img{
     width: 100%;
     height: auto;
-    padding: 0 40px 0 0;
+    padding: 0;
   }
   
   #page-home .page-container main .case-item .description{

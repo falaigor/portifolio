@@ -5,7 +5,7 @@ import Case from '../../components/case/Case';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 
-import './cases.css';
+import '../Home/index.css';
 
 const Cases = () => {
 
@@ -18,11 +18,6 @@ const Cases = () => {
         <main>
           <div className="case-content">
             <Case />
-
-            <Link to="/cases"
-              className="button">
-              Ver todos os cases
-            </Link>
           </div>
         </main>
 

@@ -17,7 +17,7 @@
 
 #page-home .page-container main .home-content {
   width: 100%;
-  padding: 64px 50px 0;
+  padding: 64px 25px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -88,10 +88,48 @@
   background: var(--color-purple-dark);
 }
 
+#page-home .page-container main .experience-content{
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+#page-home .page-container main .experience-content .experience-item{
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  margin: 64px 25px 0;
+  padding: 64px;
+  border-radius: 50px;
+  background: var(--color-gray);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+#page-home .page-container main .experience-content .experience-item .info {
+  width: 65%;
+}
+
+#page-home .page-container main .experience-content .experience-item .info h3{
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--color-title);
+}
+
+#page-home .page-container main .experience-content .experience-item .info p{
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
 #page-home .page-container main .case-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: var(--color-title);
 }
 
 @media only screen and (max-width: 900px) {
@@ -103,7 +141,6 @@
     justify-content: center;
   }
 
-
   #page-home .page-container main .home-content .description {
     width: 100%;
     display: flex;
@@ -114,5 +151,27 @@
   #page-home .page-container main .home-content .img-home {
     width: 100%
   }
+
+  #page-home .page-container main .experience-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 30px 0;
+  }
+  
+  #page-home .page-container main .experience-content .experience-item{
+    margin: 30px 25px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #page-home .page-container main .experience-content .experience-item svg{
+    display: none;
+  }
+  
+  #page-home .page-container main .experience-content .experience-item .info {
+    width: 100%;
+  }
+  
 
 }

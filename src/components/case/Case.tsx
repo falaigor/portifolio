@@ -22,7 +22,7 @@ const Case = () => {
           className="button"
           target="_blank"
           rel="noreferrer">
-          Acesse o case
+          Acesse o site
               </a>
 
       </div>
