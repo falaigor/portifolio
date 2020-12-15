@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Case from '../../components/case/Case';
 import Header from '../../components/header/Header';
