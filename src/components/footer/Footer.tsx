@@ -1,5 +1,3 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi';
 
 import './footer.css';
@@ -16,12 +14,12 @@ const Footer = () => {
               Leme, SP<br />
               falaigors@gmail.com<br />
               <a href="/">19 97422 3710</a>
-          </pre>
+            </pre>
           </div>
           <div className="link">
             <h3>Links</h3>
-            <li><Link to="/">About</Link></li>
-            <li><Link to="/cases">Cases</Link></li>
+            <li><a href="/">Sobre</a></li>
+            <li><a href="#cases">Cases</a></li>
           </div>
 
           <div className="social">

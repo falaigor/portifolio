@@ -1,6 +1,5 @@
 import React from 'react';
 import { FiInstagram, FiLinkedin, FiGithub, FiMousePointer } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
 
 import Case from '../../components/case/Case';
 import Header from '../../components/header/Header';
@@ -68,16 +67,11 @@ const index = () => {
 
           </div>
 
-          <div className="case-content">
+          <div id="cases" className="case-content">
             <h1>Últimos Trabalhos</h1>
 
             <Case />
-            <Case />
 
-            <Link to="/cases"
-              className="button">
-              Ver todos os sites
-            </Link>
           </div>
 
         </main>
