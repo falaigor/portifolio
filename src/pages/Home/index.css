@@ -24,6 +24,7 @@
 
 #page-home .page-container main .home-content .description {
   width: 50%;
+  margin-right: 20px;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
